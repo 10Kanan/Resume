@@ -1,4 +1,4 @@
-import React, { useState, useEffect } from "react";
+import React, { useEffect, useState } from "react";
 import data from "../../assets/data/portfolioData";
 import Modal from "./Modal";
 
@@ -14,7 +14,9 @@ const Portfolio = () => {
     setActiveID(id);
   };
   const loadMoreHandler = () => {
-    setNextItems((prev) => prev + 3);
+    setNextItems((prev) => {
+      return (prev = prev + 3);
+    });
   };
   useEffect(() => {
     if (selectTab === "all") {
@@ -65,7 +67,7 @@ const Portfolio = () => {
         </div>
 
         <div className="flex items-center gap-4 flex-wrap mt-12">
-          {portfolios.slice(0, nextItems)?.map((portfolio, index) => (
+          {portfolios.slice(0, nextItems).map((portfolio, index) => (
             <div
               className="group max-w-full sm:w-[48.5%] md:w-[31.8%] lg:w-[32.2%] relative z-[1]"
               key={index}
