@@ -1,8 +1,11 @@
-# React + Vite
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+# Web-Resume-mini-project
 
-Currently, two official plugins are available:
+This is my skill check point class project-1 created and deployed web resume by using Vite.js , React.js ,Tailwind CSS for design was referred to figma but add more additional motion and style that I was learn from youtube video.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## Tech Stack
+Vite.js , React.js ,Tailwind CSS
+## 🔗 Links
+https://phornlapat-resume.netlify.app/
+
+
